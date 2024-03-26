@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: lightblue;
+
+        }
+
+        header{
+            width: 600px;
+            background-color: lightgray;
+            padding: 20px;
+        }
+
+        main {
+            background-color: white;
+            padding: 30px;
+            margin: 15px;
+            border-radius: 10px 40px ;
+
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        article {
+            background-color: violet;
+                    
+        }
+
+        article > aside {
+            background-color: brown;
+        }
+
+        nav {
+            background-color: lightcyan;
+            padding: 3px;
+            box-shadow: 13px -6px 20px 11px rgba(0, 0, 0, 0.167);
+
+
+
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: Bolder;
+            margin: 5 px;
+        }
+
+        nav > a:hover {
+            text-decoration: line-through;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+
+            border-radius: 50%;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+   <header>
+    <h1>Site teste</h1>
+    <nav>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+
+    </nav>
+   </header>
+   
+   <main>
+    <section id="assuntos"> 
+        <article>
+            <h2>Notícias que ninguem se importa</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem exercitationem quidem aliquid, nesciunt modi nobis quibusdam neque earum impedit, architecto ratione atque illum sunt tempora iure quasi sequi. Blanditiis, asperiores? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla corrupti vel numquam praesentium. Accusantium deserunt voluptates harum assumenda? Repellendus maiores, reiciendis eveniet alias necessitatibus mollitia repudiandae eligendi inventore vero molestiae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perspiciatis expedita accusamus dolores dignissimos vero optio nisi, nesciunt quaerat praesentium non facere assumenda eius fuga, similique beatae in quo. Temporibus!
+            </p>
+            <aside> <p> Jose quem escreveu </p></aside>
+        </article>
+        <article> </article>
+    </section>
+    <section id="notícias"></section>
+
+   </main>
+
+   <footer>
+    <p>Ficou horrivel</p>
+   
+   </footer>
+
+   <div id="bola"></div>
+
+</body>
+</html>
