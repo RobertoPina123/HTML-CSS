@@ -1,0 +1,1 @@
+somente um arquivo Ficticio com fins educacionais.

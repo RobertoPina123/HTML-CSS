@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form autocomplete="on" action="cadastro.php" method="get">
+
+        <p><label for="isu"> Usuário</label></p>
+        <input type="text" name="usu" id="isu" required minlength="5" maxlength="5" size="30" placeholder="Nome do Usuário" autocomplete="username">
+
+        <p><label for="isen"> Senha:</label></p>
+        <input type="password" name="sen" id="isen" required minlength="5" maxlength="20" size="30" placeholder="Senha" autocomplete="current-password">
+
+        
+         <br>
+         <br>
+        
+        <input type="submit" value="Enviar">
+        
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
