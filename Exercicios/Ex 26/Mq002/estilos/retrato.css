@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /*Telas em Retrato*/
+
+body {
+    background-color: orange;
+    background-image: url(../imagens/cev-portrait.jpg);
+  
+}

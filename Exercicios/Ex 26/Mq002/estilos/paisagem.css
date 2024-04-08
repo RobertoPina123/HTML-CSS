@@ -1,3 +1,10 @@
 @charset "UTF-8";
 
 /*Telas em Paisagem*/
+
+body {
+    background-color: rgb(6, 36, 9);
+    background-image: url(../imagens/cev-landscape.jpg);
+    
+
+}
